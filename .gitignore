@@ -1,0 +1,19 @@
+# UNSW-NB15 raw data + trained models: too large for a normal git push (one file
+# is 99MB, right at GitHub's 100MB hard limit) and the raw data's redistribution
+# terms weren't checked. Regenerate via code_unsw/train_unsw.py — see README.
+code_unsw/data/
+code_unsw/models/**/*.joblib
+code_unsw/models/**/*.keras
+
+# NSL-KDD models (code/models/) are small (<25MB each) and kept in the repo.
+
+# OS / editor cruft
+.DS_Store
+__pycache__/
+*.pyc
+.vscode/
+.claude/
+
+# Python virtual environments, if ever recreated inside this folder
+venv/
+.venv/

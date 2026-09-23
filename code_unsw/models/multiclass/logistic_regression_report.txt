@@ -1,0 +1,19 @@
+MODE=multiclass  MODEL=logistic_regression  DATASET=UNSW-NB15
+Accuracy=0.6712  F1=0.3190  train_time=57.3s
+
+                precision    recall  f1-score   support
+
+      Analysis     0.0000    0.0000    0.0000       677
+      Backdoor     0.0000    0.0000    0.0000       583
+           DoS     0.2467    0.0181    0.0337      4089
+      Exploits     0.4792    0.7401    0.5817     11132
+       Fuzzers     0.2169    0.5213    0.3064      6062
+       Generic     0.9933    0.9627    0.9778     18871
+        Normal     0.8846    0.6234    0.7314     37000
+Reconnaissance     0.4520    0.7314    0.5587      3496
+     Shellcode     0.0000    0.0000    0.0000       378
+         Worms     0.0000    0.0000    0.0000        44
+
+      accuracy                         0.6712     82332
+     macro avg     0.3273    0.3597    0.3190     82332
+  weighted avg     0.7374    0.6712    0.6794     82332

@@ -1,0 +1,10 @@
+
+scikit-learn
+numpy
+pandas
+scipy
+joblib
+matplotlib
+
+# Само ако ќе ја тестираш и Keras мрежата (--include-keras):
+# tensorflow

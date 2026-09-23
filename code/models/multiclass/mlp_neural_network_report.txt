@@ -1,0 +1,14 @@
+MODE=multiclass  MODEL=mlp_neural_network
+Accuracy=0.7637  F1=0.5721  train_time=150.6s
+
+              precision    recall  f1-score   support
+
+         DoS     0.9479    0.8051    0.8707      7460
+       Probe     0.7532    0.6592    0.7031      2421
+         R2L     0.5973    0.0936    0.1618      2885
+         U2R     1.0000    0.1940    0.3250        67
+      normal     0.6850    0.9610    0.7998      9711
+
+    accuracy                         0.7637     22544
+   macro avg     0.7967    0.5426    0.5721     22544
+weighted avg     0.7690    0.7637    0.7298     22544

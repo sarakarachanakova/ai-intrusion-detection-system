@@ -1,0 +1,11 @@
+MODE=binary  MODEL=mlp_neural_network
+Accuracy=0.7827  F1=0.7785  train_time=141.1s
+
+              precision    recall  f1-score   support
+
+           0     0.6814    0.9308    0.7868      9711
+           1     0.9276    0.6707    0.7785     12833
+
+    accuracy                         0.7827     22544
+   macro avg     0.8045    0.8007    0.7827     22544
+weighted avg     0.8215    0.7827    0.7821     22544

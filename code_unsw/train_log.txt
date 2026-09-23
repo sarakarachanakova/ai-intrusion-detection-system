@@ -1,0 +1,33 @@
+/Users/sara/Desktop/master/1. Digitalna transformacija I VI/NSL-KDD-IDS/venv/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (300) reached and the optimization hasn't converged yet.
+  warnings.warn(
+Train: (175341, 36)  Test: (82332, 36)
+Feature columns: 34  (num: 31 , cat: 3 )
+
+======================================================================
+MODE: binary 
+======================================================================
+  decision_tree          acc=0.8664  f1=0.8867  (10.1s)  -> /Users/sara/Desktop/master/1. Digitalna transformacija I VI/dtvi-project/code_unsw/models/binary/decision_tree.joblib
+  random_forest          acc=0.8656  f1=0.8886  (45.6s)  -> /Users/sara/Desktop/master/1. Digitalna transformacija I VI/dtvi-project/code_unsw/models/binary/random_forest.joblib
+  logistic_regression    acc=0.7969  f1=0.8400  (4.7s)  -> /Users/sara/Desktop/master/1. Digitalna transformacija I VI/dtvi-project/code_unsw/models/binary/logistic_regression.joblib
+  mlp_neural_network     acc=0.8533  f1=0.8790  (814.0s)  -> /Users/sara/Desktop/master/1. Digitalna transformacija I VI/dtvi-project/code_unsw/models/binary/mlp_neural_network.joblib
+
+======================================================================
+MODE: multiclass 
+======================================================================
+  decision_tree          acc=0.7478  f1=0.4834  (16.9s)  -> /Users/sara/Desktop/master/1. Digitalna transformacija I VI/dtvi-project/code_unsw/models/multiclass/decision_tree.joblib
+  random_forest          acc=0.7696  f1=0.4537  (108.8s)  -> /Users/sara/Desktop/master/1. Digitalna transformacija I VI/dtvi-project/code_unsw/models/multiclass/random_forest.joblib
+  logistic_regression    acc=0.6712  f1=0.3190  (57.3s)  -> /Users/sara/Desktop/master/1. Digitalna transformacija I VI/dtvi-project/code_unsw/models/multiclass/logistic_regression.joblib
+  mlp_neural_network     acc=0.7754  f1=0.4599  (822.0s)  -> /Users/sara/Desktop/master/1. Digitalna transformacija I VI/dtvi-project/code_unsw/models/multiclass/mlp_neural_network.joblib
+
+=== РЕЗИМЕ ===
+      mode               model  accuracy     f1  train_s
+    binary       decision_tree    0.8664 0.8867     10.1
+    binary       random_forest    0.8656 0.8886     45.6
+    binary logistic_regression    0.7969 0.8400      4.7
+    binary  mlp_neural_network    0.8533 0.8790    814.0
+multiclass       decision_tree    0.7478 0.4834     16.9
+multiclass       random_forest    0.7696 0.4537    108.8
+multiclass logistic_regression    0.6712 0.3190     57.3
+multiclass  mlp_neural_network    0.7754 0.4599    822.0
+
+Готово. Модели, извештаи и метаподатоци се зачувани во /Users/sara/Desktop/master/1. Digitalna transformacija I VI/dtvi-project/code_unsw/models

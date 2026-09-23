@@ -1,0 +1,19 @@
+MODE=multiclass  MODEL=decision_tree  DATASET=UNSW-NB15
+Accuracy=0.7478  F1=0.4834  train_time=16.9s
+
+                precision    recall  f1-score   support
+
+      Analysis     0.0039    0.0059    0.0047       677
+      Backdoor     0.0271    0.0789    0.0403       583
+           DoS     0.2494    0.2318    0.2403      4089
+      Exploits     0.6095    0.7007    0.6519     11132
+       Fuzzers     0.3045    0.5076    0.3806      6062
+       Generic     0.9798    0.9782    0.9790     18871
+        Normal     0.9332    0.7632    0.8397     37000
+Reconnaissance     0.9054    0.7943    0.8463      3496
+     Shellcode     0.2857    0.5238    0.3697       378
+         Worms     0.5128    0.4545    0.4819        44
+
+      accuracy                         0.7478     82332
+     macro avg     0.4811    0.5039    0.4834     82332
+  weighted avg     0.8014    0.7478    0.7681     82332

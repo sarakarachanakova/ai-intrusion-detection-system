@@ -1,0 +1,9 @@
+mode,model,accuracy,f1,train_s
+binary,decision_tree,0.7854,0.7743,10.8
+binary,random_forest,0.7677,0.75,46.6
+binary,logistic_regression,0.7537,0.7424,13.1
+binary,mlp_neural_network,0.7827,0.7785,141.1
+multiclass,decision_tree,0.7651,0.5739,4.2
+multiclass,random_forest,0.7531,0.4908,35.9
+multiclass,logistic_regression,0.7614,0.5692,40.2
+multiclass,mlp_neural_network,0.7637,0.5721,150.6

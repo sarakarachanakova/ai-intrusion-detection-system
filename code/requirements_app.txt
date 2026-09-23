@@ -1,0 +1,23 @@
+# Зависности за Gradio демото (app_gradio.py).
+# Прво усогласи ги верзиите со Colab за да се вчитаат моделите:
+#     pip install -r models/requirements_local.txt
+# па потоа:
+#     pip install -r requirements_app.txt
+#
+# Верзиите на gradio/pydantic/fastapi се пинувани намерно: на Python 3.9
+# `pip install gradio` носи gradio 4.44.1, кој паѓа при стартување со pydantic>=2.10.
+# (Ако користиш Python 3.10+, може и понова комбинација, но оваа е тестирана.)
+
+gradio==4.44.1
+gradio-client==1.3.0
+pydantic>=2.7,<2.10
+fastapi>=0.112,<0.113
+# huggingface_hub>=1.0 го отстрани `HfFolder`, кој gradio 4.44.1 го импортира при старт.
+# Затоа го пинуваме на последната серија пред 1.0.
+huggingface_hub>=0.24,<1.0
+scikit-learn
+numpy
+pandas
+scipy
+joblib
+matplotlib

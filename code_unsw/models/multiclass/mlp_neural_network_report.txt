@@ -1,0 +1,19 @@
+MODE=multiclass  MODEL=mlp_neural_network  DATASET=UNSW-NB15
+Accuracy=0.7754  F1=0.4599  train_time=822.0s
+
+                precision    recall  f1-score   support
+
+      Analysis     0.0000    0.0000    0.0000       677
+      Backdoor     0.0415    0.0617    0.0496       583
+           DoS     0.3057    0.0912    0.1405      4089
+      Exploits     0.5707    0.8274    0.6755     11132
+       Fuzzers     0.3277    0.5157    0.4007      6062
+       Generic     0.9917    0.9694    0.9804     18871
+        Normal     0.9252    0.8068    0.8619     37000
+Reconnaissance     0.9061    0.7809    0.8388      3496
+     Shellcode     0.3795    0.5582    0.4518       378
+         Worms     0.2692    0.1591    0.2000        44
+
+      accuracy                         0.7754     82332
+     macro avg     0.4717    0.4770    0.4599     82332
+  weighted avg     0.8002    0.7754    0.7781     82332

@@ -1,0 +1,6 @@
+{
+  "decision_tree": 0.8711,
+  "random_forest": 0.9761,
+  "logistic_regression": 0.911,
+  "mlp_neural_network": 0.9685
+}

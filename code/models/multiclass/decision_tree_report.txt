@@ -1,0 +1,14 @@
+MODE=multiclass  MODEL=decision_tree
+Accuracy=0.7651  F1=0.5739  train_time=4.2s
+
+              precision    recall  f1-score   support
+
+         DoS     0.9608    0.8218    0.8859      7460
+       Probe     0.8000    0.6493    0.7168      2421
+         R2L     0.9572    0.0620    0.1165      2885
+         U2R     0.9375    0.2239    0.3614        67
+      normal     0.6682    0.9630    0.7890      9711
+
+    accuracy                         0.7651     22544
+   macro avg     0.8648    0.5440    0.5739     22544
+weighted avg     0.8170    0.7651    0.7260     22544

@@ -1,0 +1,11 @@
+MODE=binary  MODEL=random_forest  DATASET=UNSW-NB15
+Accuracy=0.8656  F1=0.8886  train_time=45.6s
+
+              precision    recall  f1-score   support
+
+           0     0.9576    0.7334    0.8306     37000
+           1     0.8173    0.9735    0.8886     45332
+
+    accuracy                         0.8656     82332
+   macro avg     0.8874    0.8534    0.8596     82332
+weighted avg     0.8803    0.8656    0.8625     82332

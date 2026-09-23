@@ -1,0 +1,11 @@
+MODE=binary  MODEL=mlp_neural_network  DATASET=UNSW-NB15
+Accuracy=0.8533  F1=0.8790  train_time=814.0s
+
+              precision    recall  f1-score   support
+
+           0     0.9475    0.7131    0.8137     37000
+           1     0.8052    0.9677    0.8790     45332
+
+    accuracy                         0.8533     82332
+   macro avg     0.8763    0.8404    0.8464     82332
+weighted avg     0.8691    0.8533    0.8497     82332

@@ -1,0 +1,14 @@
+MODE=multiclass  MODEL=logistic_regression
+Accuracy=0.7614  F1=0.5692  train_time=40.2s
+
+              precision    recall  f1-score   support
+
+         DoS     0.9201    0.8302    0.8728      7460
+       Probe     0.8799    0.7778    0.8257      2421
+         R2L     0.6154    0.0139    0.0271      2885
+         U2R     0.7500    0.2239    0.3448        67
+      normal     0.6649    0.9304    0.7756      9711
+
+    accuracy                         0.7614     22544
+   macro avg     0.7661    0.5552    0.5692     22544
+weighted avg     0.7664    0.7614    0.7161     22544

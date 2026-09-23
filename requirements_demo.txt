@@ -1,0 +1,17 @@
+# Зависности за комбинираното демо (app_demo.py) — NSL-KDD + UNSW-NB15.
+# Верзиите на gradio/pydantic/fastapi се пинувани намерно (види code/requirements_app.txt
+# за причината — важи и тука, истиот venv/Python 3.9 се користи за двете множества).
+
+scikit-learn
+numpy
+pandas
+scipy
+joblib
+matplotlib
+pyarrow          # за читање на UNSW-NB15 .parquet датотеките
+
+gradio==4.44.1
+gradio-client==1.3.0
+pydantic>=2.7,<2.10
+fastapi>=0.112,<0.113
+huggingface_hub>=0.24,<1.0

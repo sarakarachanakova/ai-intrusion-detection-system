@@ -1,0 +1,11 @@
+MODE=binary  MODEL=decision_tree
+Accuracy=0.7854  F1=0.7743  train_time=10.8s
+
+              precision    recall  f1-score   support
+
+           0     0.6748    0.9688    0.7955      9711
+           1     0.9648    0.6467    0.7743     12833
+
+    accuracy                         0.7854     22544
+   macro avg     0.8198    0.8077    0.7849     22544
+weighted avg     0.8399    0.7854    0.7835     22544

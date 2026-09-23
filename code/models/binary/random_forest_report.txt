@@ -1,0 +1,11 @@
+MODE=binary  MODEL=random_forest
+Accuracy=0.7677  F1=0.7500  train_time=46.6s
+
+              precision    recall  f1-score   support
+
+           0     0.6551    0.9729    0.7830      9711
+           1     0.9676    0.6123    0.7500     12833
+
+    accuracy                         0.7677     22544
+   macro avg     0.8113    0.7926    0.7665     22544
+weighted avg     0.8330    0.7677    0.7642     22544
